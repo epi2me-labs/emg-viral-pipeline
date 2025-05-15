@@ -22,7 +22,7 @@
                 },
                 "assemble": {
                     "type": "boolean",
-                    "description": "file pairs, experimental feature that performs SPAdes assembly first",
+                    "description": "file pairs, experimental feature that performs SPAdes assembly first"
                 },
                 "samplesheet": {
                     "type": "string",
