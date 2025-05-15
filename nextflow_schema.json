@@ -4,7 +4,7 @@
     "title": "ebi-metagenomics/emg-viral-pipeline pipeline parameters",
     "description": "Microbiome Informatics viral pipeline",
     "type": "object",
-    "$defs": {
+    "definitions": {
         "input_options": {
             "title": "Inputs",
             "type": "object",
@@ -22,7 +22,7 @@
                 },
                 "assemble": {
                     "type": "boolean",
-                    "description": "file pairs, experimental feature that performs SPAdes assembly first",
+                    "description": "file pairs, experimental feature that performs SPAdes assembly first"
                 },
                 "samplesheet": {
                     "type": "string",
